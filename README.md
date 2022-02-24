@@ -13,6 +13,6 @@ The kernels ``kernel_mirror.cl`` and ``kernel_rotate.cl`` flip and rotate an ima
 
                         Original image                                                    Flipped image
 
-<img src="https://user-images.githubusercontent.com/71872419/155582501-32a5088d-7d10-4ae8-a3c9-722391189509.jpg" width="425" height="425"> <img src="https://user-images.githubusercontent.com/71872419/155582545-946abcbd-ff4c-404b-8c73-a13657e6abce.jpg" width="425" height="425">
+<img src="https://user-images.githubusercontent.com/71872419/155582501-32a5088d-7d10-4ae8-a3c9-722391189509.jpg" width="477" height="477"> <img src="https://user-images.githubusercontent.com/71872419/155582545-946abcbd-ff4c-404b-8c73-a13657e6abce.jpg" width="477" height="477">
 
                         Original image                                                    Rotated image
