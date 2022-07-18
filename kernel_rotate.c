@@ -98,7 +98,7 @@ int main(int argc, char** argv)
         cl_error(err, "Error: Failed to get info of the platform\n");
         printf("\t[%d]-Platform host timer resolution: %d\n", i, host_timer_resolution);
 
-        // Aquí salta el error
+        // AquÃ­ salta el error
         //err= clGetPlatformInfo(platforms_ids[i], CL_PLATFORM_EXTENSIONS, t_buf, str_buffer, &e_buf);
         //cl_error (err, "Error: Failed to get info of the platform\n");
         //printf( "\t[%d]-Platform Extensions: %s\n", i, str_buffer);
@@ -274,20 +274,20 @@ int main(int argc, char** argv)
     int pos_img = 0;
 
     for(int rows = 0; rows < img.height(); rows++)
-		for (int cols = 0; cols < img.width(); cols++) {
+	for (int cols = 0; cols < img.width(); cols++) {
 
-			imagen_in[pos_img] = img(cols, rows, 0, 0); //R
-			imagen_out[pos_img] = 0; //R
-			pos_img++;
+	    imagen_in[pos_img] = img(cols, rows, 0, 0); //R
+	    imagen_out[pos_img] = 0; //R
+	    pos_img++;
 
-			imagen_in[pos_img] = img(cols, rows, 0, 1); //G
-			imagen_out[pos_img] = 0; //G
-			pos_img++;
+	    imagen_in[pos_img] = img(cols, rows, 0, 1); //G
+	    imagen_out[pos_img] = 0; //G
+	    pos_img++;
 
-			imagen_in[pos_img] = img(cols, rows, 0, 2); //B
-			imagen_out[pos_img] = 0; //B
-			pos_img++;
-		}
+	    imagen_in[pos_img] = img(cols, rows, 0, 2); //B
+	    imagen_out[pos_img] = 0; //B
+	    pos_img++;
+	}
 
     // 6. Create OpenCL buffer visible to the OpenCl runtime
     cl_mem in_device_object = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(cl_char) * size, NULL, &err);
