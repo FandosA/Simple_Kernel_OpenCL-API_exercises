@@ -40,10 +40,10 @@ using namespace cimg_library;
 // check error, in such a case, it exits
 
 void cl_error(cl_int code, const char *string){
-	if (code != CL_SUCCESS){
-		printf("%d - %s\n", code, string);
-	    exit(-1);
-	}
+    if (code != CL_SUCCESS){
+        printf("%d - %s\n", code, string);
+        exit(-1);
+    }
 }
 ////////////////////////////////////////////////////////////////////////////////
 
