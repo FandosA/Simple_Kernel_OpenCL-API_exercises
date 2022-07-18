@@ -10,9 +10,9 @@ Finally, the kernel is launched to perform the function to be executed at the co
 The kernels ``kernel_mirror.cl`` and ``kernel_rotate.cl`` flip and rotate an image, respectively. Images below show an example of each of the kernels.
 
 <img src="https://user-images.githubusercontent.com/71872419/155582219-76b9675a-f3b8-4726-8d11-901188d308b7.jpg" width="400" height="266"> <img src="https://user-images.githubusercontent.com/71872419/155582268-6f20af23-d38e-49b8-99b4-fcaa28f6e204.jpg" width="400" height="266">
-
-                        Original image                                   Flipped image
+ 
+                  Original image                                      Flipped image
 
 <img src="https://user-images.githubusercontent.com/71872419/155582501-32a5088d-7d10-4ae8-a3c9-722391189509.jpg" width="400" height="400"> <img src="https://user-images.githubusercontent.com/71872419/155582545-946abcbd-ff4c-404b-8c73-a13657e6abce.jpg" width="400" height="400">
 
-                  Original image                                           Rotated image
+                  Original image                                      Rotated image
